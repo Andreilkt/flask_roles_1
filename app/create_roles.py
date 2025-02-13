@@ -1,11 +1,9 @@
 # create_roles.py
-
 from flask import Flask
-
-# from app import app
 from models import Role, db
 
-# admin_adm = Admin(app)
+"""Скрипт пока не  работает, но данные из него возможно использовать при создании ролей  через flask shell"""
+
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///app.db'
